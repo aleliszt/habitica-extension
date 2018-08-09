@@ -1,0 +1,21 @@
+{
+    "name": "Habitica New Tab Extension",
+    "version": "1.0",
+    "description": "Extension to connect with Habitica account!",
+    "background":{
+    "scripts": ["js/background.js"]
+    },
+  "browser_action": {},
+  "permissions": [ 
+            "notifications",
+            "activeTab",
+            "tabs"
+        ],
+    "icons": {
+      "16": "images/icon1.png",
+      "32": "images/icon1.png",
+      "48": "images/icon128.png",
+      "128": "images/icon128.png"
+    },
+    "manifest_version": 2
+  }
